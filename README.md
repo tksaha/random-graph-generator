@@ -1,1 +1,1 @@
-# random-graph-generator
+# Random-Graph-Generator
