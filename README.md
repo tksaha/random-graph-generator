@@ -56,12 +56,7 @@ ISSN={1545-5963},
 month={},}
 
 @InProceedings{10.1007/978-3-319-16112-9_2,
-author="Saha, Tanay Kumar
-and Hasan, Mohammad Al",
-editor="Mangioni, Giuseppe
-and Simini, Filippo
-and Uzzo, Stephen Miles
-and Wang, Dashun",
+author="Saha, Tanay Kumar and Hasan, Mohammad Al",
 title="Finding Network Motifs Using MCMC Sampling",
 booktitle="Complex Networks VI",
 year="2015",
