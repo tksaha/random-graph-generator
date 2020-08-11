@@ -8,7 +8,7 @@ environment.
 conda env create -f func_motif.yml
 ```
 
-Now, you have successfully installed sen2vec environment and now you can activate the environment using the following command. 
+Now, you have successfully installed `func_motif` environment and now you can activate the environment using the following command. 
 
 ```
 source activate func_motif
