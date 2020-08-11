@@ -30,7 +30,9 @@ def	generate_Random_Undirected (g_org,  rndSeed):
 	for	ntimes 	in	range (0,3*npass):
 		# Select two edges to swap 
 		# Iterate through nodes  (n*n) for directed graphs 
-		all_edges= g.edges(); #list of edges
+		all_edges= list()
+		for e in g.edges():
+		    all_edges.append(e) #list of edges
 		
 		en = np.random.choice (len(all_edges), 2, replace=False); 
 		
