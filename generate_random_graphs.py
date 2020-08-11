@@ -48,7 +48,7 @@ def	generate_random_graph_and_write (g,graph_id_processing,id_of_file_write):
 			
 			write_files[id_of_file_write].write('t'+' '+'#'+' '+ str(graph_id_processing)+os.linesep);
 			for	nodes	in	gx_new.nodes(data=True):
-				write_files[id_of_file_write].write('v'+' '+str(nodes[0])+' '+str(gx_new.node[nodes[0]]['label'])+os.linesep);
+				write_files[id_of_file_write].write('v'+' '+str(nodes[0])+' '+str(gx_new.nodes[nodes[0]]['label'])+os.linesep);
 
 			for	edges	in	gx_new.edges():
 				write_files[id_of_file_write].write('e'+' '+str(edges[0])+' '+str(edges[1])+' '+'1'+os.linesep); 
