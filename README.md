@@ -42,9 +42,4 @@ publisher="Springer International Publishing",
 address="Cham",
 pages="13--24"
 }
-
-
-
-
-
 ```
